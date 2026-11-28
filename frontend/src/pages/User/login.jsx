@@ -51,11 +51,6 @@ function Login() {
                     Login
                 </button>
 
-                <p className="text-center mt-5">
-                    Don't have an account?
-                    <button type="button" onClick={() => navigate('/register')}
-                        className="text-blue-600 ml-1">Register</button>
-                </p>
 
                 <button type="button" onClick={() => navigate('/admin-login')}
                     className="block mx-auto text-sm text-gray-500 mt-5 hover:text-blue-600">

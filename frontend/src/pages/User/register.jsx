@@ -75,12 +75,6 @@ function Register() {
                 <button className="w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700">
                     Register
                 </button>
-
-                <p className="text-center mt-5 text-gray-600">
-                    Already have an account?
-                    <button type="button" onClick={() => navigate('/')}
-                        className="text-blue-600 ml-1">Login</button>
-                </p>
             </form>
         </div>
     );
